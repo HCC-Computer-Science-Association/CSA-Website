@@ -1,0 +1,33 @@
+.board-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+.board-member {
+  width: 45%;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.board-member h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.board-member p {
+  font-size: 1rem;
+  margin: 0;
+  color: #666;
+}
+
+.board-member img {
+  max-width: 100%;
+  border-radius: 50%;
+}

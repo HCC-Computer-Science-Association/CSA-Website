@@ -1,0 +1,44 @@
+#first-span {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    padding: 0 25vw;
+    text-align: center;
+    background-color: ;
+}
+
+#sponsors {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#sponsors ul {
+    list-style-type: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sponsors p {
+    font-size: 1.2rem;
+    font-family: 'Arial', sans-serif;
+    margin: 1rem 0;
+    opacity: 0.5;
+}
+
+#sponsors img {
+    width: 180px; /* Set a fixed width for all images */
+    height: 100px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensure images maintain their aspect ratio */
+    background: transparent; /* Remove white background */
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+}

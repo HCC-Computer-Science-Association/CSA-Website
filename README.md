@@ -1,2 +1,2 @@
-# CSA-Website-
-CSA Website 
+# CSA
+Computer Science Association Web
